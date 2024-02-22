@@ -3,16 +3,23 @@ Using libraries & building custom and pre-trained models using FastAI, HuggingFa
 
 # Tabular
 
-I will build models using FastAI & HuggingFace transformers.
+Using FastAI & HuggingFace transformers.
 
 # Text
 
-I will build models using FastAI, HuggingFace, and Keras-NLP.
+Using FastAI, HuggingFace, and Keras-NLP.
+
+## Keras NLP (Natural Language Processing)
+In the */Keras/Keras-NLP* directory I build, test & finetune a Language Model using Keras NLP, useful for connecting text data to the model.
 
 # Vision
 
-I will build models using FastAI, HuggingFace, and Keras-Vision.
+Using FastAI, HuggingFace, and Keras-Vision.
+
+## Keras CV (Computer Vision)
+In the */Keras/Keras-Vision* directory I build, finetune and test a
+ YOLO (You Only Look Once) object detection model.
 
 # Audio
 
-I will build models using HuggingFace transformers.
+Using HuggingFace transformers.

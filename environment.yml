@@ -1,0 +1,17 @@
+name: fastai_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - datasets
+  - pandas
+  - pip
+  - scikit-learn
+  - torchvision
+  - pip:
+    - fastai
+    - fsspec==2023.9.2

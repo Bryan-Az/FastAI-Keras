@@ -11,6 +11,13 @@ The primary sources for this dataset are found at:
 1. [Harvard Buisness School, *Impact Weighted Accounts Project*](https://www.hbs.edu/impact-weighted-accounts/Pages/default.aspx)
 2. “Freiberg, David and Park, DG and Serafeim, George and Zochowski, Rob. 2020. Corporate Environmental Impact: Measurement, Data and Information. Harvard Business School, Impact-Weighted Accounts Project report.”
 
+## Fast AI
+
+I use tabular data to create a custom regression model that uses embeddings to predict environmental cost based on a variety of buisness metrics.
+
+## HuggingFace
+I use tabular data to create a custom classification model that uses  environmental impact data and buisness metrics.
+
 # Text
 
 Using FastAI, HuggingFace, and Keras-NLP. The primary source for the data in this section was taken from Prof. Julian McAuley's database in the department of computer science at UC San Diego. The data is also used in McAuley et.al.'s research paper.
@@ -24,14 +31,20 @@ Empirical Methods in Natural Language Processing (EMNLP), 2019
 
 ### Product Recommendation
 
-In the *FastAI/Text-Model* directory, I build and test an Amazon fashion products recommendation text model using Fast AI. 
+In the *FastAI/Text-Model* directory, I build an Amazon fashion products recommendation text model using Fast AI. 
 
 ## Keras 
 
 ### NLP (Natural Language Processing)
-In the */Keras/Keras-NLP* directory I test & finetune a pre-trained Language Model using Keras NLP, useful for connecting and inferring insights from text data using a language model. 
+In the */Keras/Keras-NLP* directory I finetune a pre-trained Language Model using Keras NLP, useful for connecting and inferring insights from text data using a language model. 
 
 Similar to the product recommendation model used in the Fast AI section, the pre-trained NLP model built with Keras will be tested & finetuned on the Amazon fashion products dataset.
+
+## HuggingFace
+In the *HuggingFace/Text-Models* directory, I build three variant text models, 
+1. A named entity recognition model
+2. A summarization model
+3. A translation model
 
 # Vision
 
@@ -47,6 +60,10 @@ In the */Fast-AI/Vision-Models* directory I build a custom object detection visi
 In the */Keras/Keras-Vision* directory I build a custom
  YOLO (You Only Look Once) object detection model, and finetune a pre-trained Keras model.
 
+## HuggingFace
+In this section, I implement a zero shot object classification model using HuggingFace vision transformer models. I use the Fashion-MNIST dataset for this section.
+
 # Audio
 
-Using HuggingFace transformers.
+## HuggingFace
+Using HuggingFace transformers, a computer speech (text to speech) model is built using a pretrained audio model.

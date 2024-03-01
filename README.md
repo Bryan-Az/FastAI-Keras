@@ -19,30 +19,34 @@ Using FastAI, HuggingFace, and Keras-NLP.
 
 ### Product Recommendation
 
-In the *FastAI/Text-Model* directory, I build and test a product recommendation text model using Fast AI.
+In the *FastAI/Text-Model* directory, I build and test an Amazon fashion products recommendation text model using Fast AI. The primary source for this data in this section was taken from Prof. Julian McAuley's database in the department of computer science at UC San Diego. The data is also used in McAuley et.al.'s research paper.
 
-The secondary source for this data in this section was taken from Prof. Julian McCauley's database in the department of computer science at UC San Diego. [Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/)
+1. [UC San Diego Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/)
 
-The primary source for the data is from the research paper: 
-
-Justifying recommendations using distantly-labeled reviews and fined-grained aspects
+2. [Justifying recommendations using distantly-labeled reviews and fined-grained aspects](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19a.pdf)
 Jianmo Ni, Jiacheng Li, Julian McAuley
 Empirical Methods in Natural Language Processing (EMNLP), 2019
-
-[Pdf Link](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19a.pdf)
 
 ## Keras 
 
 ### NLP (Natural Language Processing)
-In the */Keras/Keras-NLP* directory I build, test & finetune a Language Model using Keras NLP, useful for connecting text data to the model.
+In the */Keras/Keras-NLP* directory I test & finetune a pre-trained Language Model using Keras NLP, useful for connecting and inferring insights from text data using a language model. 
+
+Similar to the product recommendation model used in the Fast AI section, the pre-trained NLP model built with Keras will be tested & finetuned on the [Amazon fashion products dataset](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).
 
 # Vision
 
-Using FastAI, HuggingFace, and Keras-Vision.
+Using FastAI, HuggingFace, and Keras-Vision. The open-source Fashion MNIST dataset of greyscale images are used to train (a custom model) and finetune (a pre-trained model).
 
-## Keras CV (Computer Vision)
-In the */Keras/Keras-Vision* directory I build, finetune and test a
- YOLO (You Only Look Once) object detection model.
+Source: 
+[Fashion MNIST "Modified National Institute of Standards and Technology"](https://github.com/zalandoresearch/fashion-mnist)
+
+## Fast AI
+In the */Fast-AI/Vision-Models* directory I build a custom object detection vision model as well as segmentation vision model.
+
+## Keras
+In the */Keras/Keras-Vision* directory I build a custom
+ YOLO (You Only Look Once) object detection model, and finetune a pre-trained Keras model.
 
 # Audio
 

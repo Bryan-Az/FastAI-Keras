@@ -13,26 +13,25 @@ The primary sources for this dataset are found at:
 
 # Text
 
-Using FastAI, HuggingFace, and Keras-NLP.
+Using FastAI, HuggingFace, and Keras-NLP. The primary source for the data in this section was taken from Prof. Julian McAuley's database in the department of computer science at UC San Diego. The data is also used in McAuley et.al.'s research paper.
+
+1. [UC San Diego Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/)
+2. [Justifying recommendations using distantly-labeled reviews and fined-grained aspects](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19a.pdf)
+Jianmo Ni, Jiacheng Li, Julian McAuley
+Empirical Methods in Natural Language Processing (EMNLP), 2019
 
 ## Fast AI
 
 ### Product Recommendation
 
-In the *FastAI/Text-Model* directory, I build and test an Amazon fashion products recommendation text model using Fast AI. The primary source for this data in this section was taken from Prof. Julian McAuley's database in the department of computer science at UC San Diego. The data is also used in McAuley et.al.'s research paper.
-
-1. [UC San Diego Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/)
-
-2. [Justifying recommendations using distantly-labeled reviews and fined-grained aspects](https://cseweb.ucsd.edu/~jmcauley/pdfs/emnlp19a.pdf)
-Jianmo Ni, Jiacheng Li, Julian McAuley
-Empirical Methods in Natural Language Processing (EMNLP), 2019
+In the *FastAI/Text-Model* directory, I build and test an Amazon fashion products recommendation text model using Fast AI. 
 
 ## Keras 
 
 ### NLP (Natural Language Processing)
 In the */Keras/Keras-NLP* directory I test & finetune a pre-trained Language Model using Keras NLP, useful for connecting and inferring insights from text data using a language model. 
 
-Similar to the product recommendation model used in the Fast AI section, the pre-trained NLP model built with Keras will be tested & finetuned on the [Amazon fashion products dataset](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).
+Similar to the product recommendation model used in the Fast AI section, the pre-trained NLP model built with Keras will be tested & finetuned on the Amazon fashion products dataset.
 
 # Vision
 

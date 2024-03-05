@@ -4,7 +4,7 @@ In this section, I use Fast AI to create models trained on a variety of data to 
 
 ## Tabular
 
-Fast AI is used to implement regression on a tabular dataset where the 'X' features are buisiness Key Performance Indicators and the 'y' target is the estimated environmental cost in dollars.
+Fast AI is used to implement regression on a tabular dataset where the 'X' features are buisiness' environmental impact indicators and the 'y' target is the monetized environmental impact of the firm's operations during the specific year as a percent of revenue.
 
 ## Text
 

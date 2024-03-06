@@ -54,7 +54,7 @@ Source:
 [Fashion MNIST "Modified National Institute of Standards and Technology"](https://github.com/zalandoresearch/fashion-mnist)
 
 ## Fast AI
-In the */Fast-AI/Vision-Models* directory I build a custom object detection vision model as well as segmentation vision model.
+In the */Fast-AI/Vision-Models* directory I build a custom and finetune a pretrained object classification model.
 
 ## Keras
 In the */Keras/Keras-Vision* directory I build a custom

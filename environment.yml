@@ -7,6 +7,7 @@ dependencies:
   - ipykernel
   - jupyter
   - matplotlib
+  - transformers
   - datasets
   - pandas
   - pip
@@ -15,3 +16,12 @@ dependencies:
   - pip:
     - fastai
     - fsspec==2023.9.2
+    - jiwer
+    - Cython==0.29.21
+    - librosa==0.8.0
+    - phonemizer==2.2.1
+    - scipy
+    - matplotlib
+    - Unidecode==1.1.1
+    - numpy
+    - torch

@@ -1,3 +1,3 @@
 ## Tabular
 
-I use tabular data to create a custom classification model that uses  data environmental impact from a variety of buisness metrics.
+In this section I use tabular data (data about environmental cost of corporations by a variety of environmental and revenue metrics) to create a custom text model that can answer questions using natural language processing techniques.

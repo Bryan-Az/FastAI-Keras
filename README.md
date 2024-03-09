@@ -66,4 +66,6 @@ In this section, I implement a zero shot object classification model using Huggi
 # Audio
 
 ## HuggingFace
-Using HuggingFace transformers, a computer speech (text to speech) model is built using a pretrained audio model.
+I implement a zero shot object classification model using HuggingFace vision transformer models. I will be using the Fashion-MNIST for this section.
+
+![alt text](./HuggingFace/images/ankle_boot.png)

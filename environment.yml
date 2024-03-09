@@ -24,4 +24,5 @@ dependencies:
     - matplotlib
     - Unidecode==1.1.1
     - numpy
+    - sentencepiece
     - torch

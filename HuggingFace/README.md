@@ -22,6 +22,6 @@ I build three variant text models,
 
 I implement a zero shot object classification model using HuggingFace vision transformer models. I use the Fashion-MNIST dataset for this section.
 
-![alt text](./images/ankle_boot.pn
+![alt text](./images/ankle_boot.png
 
 

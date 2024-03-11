@@ -1,4 +1,4 @@
-name: fastai_env
+name: project_env
 channels:
   - pytorch
   - defaults

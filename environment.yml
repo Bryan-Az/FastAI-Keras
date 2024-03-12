@@ -26,3 +26,4 @@ dependencies:
     - numpy
     - sentencepiece
     - torch
+    - tensorflow==2.12.0

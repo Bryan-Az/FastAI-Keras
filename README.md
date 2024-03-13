@@ -1,5 +1,4 @@
-# FastAI-Keras
-Using libraries & building custom and pre-trained models using FastAI, HuggingFace transformers, and Keras for a variety of deep learning tasks.
+In this repository I used libraries & built custom and pre-trained models using FastAI, HuggingFace transformers, and Keras for a variety of deep learning tasks.
 
 # Tabular
 
